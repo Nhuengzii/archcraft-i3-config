@@ -64,7 +64,7 @@ bindsym $alt+Control+h 			exec --no-startup-id "alacritty --config-file ~/.confi
 bindsym $alt+Control+b 			exec --no-startup-id "alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e bashtop"
 
 # -- Rofi --
-bindsym $alt+F1 				exec --no-startup-id ~/.config/i3/rofi/bin/launcher
+bindsym $mod+d 				exec --no-startup-id ~/.config/i3/rofi/bin/launcher
 bindsym $mod+n 					exec --no-startup-id ~/.config/i3/rofi/bin/network_menu
 bindsym $mod+x 					exec --no-startup-id ~/.config/i3/rofi/bin/powermenu
 bindsym $mod+m 					exec --no-startup-id ~/.config/i3/rofi/bin/mpd
@@ -151,7 +151,7 @@ bindsym $mod+Shift+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # focus the child container
-bindsym $mod+d focus child
+bindsym $mod+Shift+a focus child
 
 ##-- Workspaces ---------------------
 
